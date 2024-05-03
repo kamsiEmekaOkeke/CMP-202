@@ -1,5 +1,5 @@
 public class Student extends User {
-    String matric_no = "bhu/22/04/05/0017";
+    String matric_no = "bhu/20/04/05/0094";
     String admission_no = "youarecorrect";
 
     String registerCourse() {
@@ -20,8 +20,8 @@ public class Student extends User {
 
     public static void main(String[] args) {
         Student student = new Student();
-        student.name = "Ark Young";
-        student.password = "MrCoder";
+        student.name = "Emeka-Okeke Kamsi";
+        student.password = "042kamsi";
         System.out.println(student.register());
         System.out.println(student.registerCourse());
         System.out.println(student.checkResults());
