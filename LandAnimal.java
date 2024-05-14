@@ -7,7 +7,7 @@ public class LandAnimal extends Animal {
     public static void main(String[] args) {
         LandAnimal lion = new LandAnimal();
         LandAnimal monkey = new LandAnimal();
-        lion.name = "brad";
+        lion.name = "mufasa";
         monkey.move();
         System.out.println(lion.name);
         System.out.println(monkey.move());
